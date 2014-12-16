@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:VGroup paddingBottom="20" paddingLeft="20" paddingRight="20" paddingTop="20" height="100%" width="100%">
+		<s:HGroup width="100%">
+			<s:TextInput id="messageTI" width="100%"/>
+			<s:Button id="go" label="OK"/>
+		</s:HGroup>
+		<s:TextArea editable="false" id="messageTA" width="100%" height="100%"/>
+	</s:VGroup>
+</s:Panel>
